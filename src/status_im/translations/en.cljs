@@ -266,6 +266,7 @@
    :existing-networks                     "Existing networks"
    :add-json-file                         "Add a JSON file"
    :paste-json-as-text                    "Paste JSON as text"
+   :paste-json                            "Paste JSON"
    :specify-rpc-url                       "Specify a RPC URL"
    :edit-rpc-url                          "Edit a RPC URL"
    :edit-network-config                   "Edit network config"
@@ -274,6 +275,7 @@
    :error-processing-json                 "Error processing JSON"
    :rpc-url                               "RPC URL"
    :remove-network                        "Remove network"
+   :network-settings                      "Network settings"
 
    ;wallet-qr-code
    :done                                  "Done"

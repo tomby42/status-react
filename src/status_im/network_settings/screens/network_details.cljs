@@ -1,10 +1,10 @@
-(ns status-im.network-config.screens.network-details
+(ns status-im.network-settings.screens.network-details
   (:require-macros [status-im.utils.views :refer [defview]])
   (:require
     [re-frame.core :refer [dispatch]]
     [status-im.components.context-menu :refer [context-menu]]
     [status-im.components.text-input-with-label.view :refer [text-input-with-label]]
-    [status-im.network-config.screen :refer [network-badge]]
+    [status-im.network-settings.screen :refer [network-badge]]
     [status-im.components.react :refer [view text text-input icon]]
     [status-im.components.sticky-button :refer [sticky-button]]
     [status-im.i18n :as i18n]

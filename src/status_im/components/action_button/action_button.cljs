@@ -6,14 +6,18 @@
                                                 icon
                                                 touchable-highlight]]))
 
+(defn action-button-view [label icon-key]
+  [view st/action-button
+   [view st/action-button-icon-container
+    [icon icon-key]]
+   [view st/action-button-label-container
+    [text {:style st/action-button-label}
+     label]]])
+
 (defn action-button [label icon-key on-press]
   [touchable-highlight {:on-press on-press}
-   [view st/action-button
-    [view st/action-button-icon-container
-     [icon icon-key]]
-    [view st/action-button-label-container
-     [text {:style st/action-button-label}
-      label]]]])
+   [view
+    [action-button-view label icon-key]]])
 
 (defn action-button-disabled [label icon-key]
   [view st/action-button
